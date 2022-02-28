@@ -83,7 +83,7 @@ props: {
 
            this.task = '';
        },
-       borrarTask(index){
+       borrarTask(index)
            this.tasks.splice(index,1);
        },
 
