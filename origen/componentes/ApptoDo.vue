@@ -87,7 +87,7 @@ props: {
            this.tasks.splice(index,1);
        },
 
-       editarTask(){
+       editarTask(index){
           this.task = this.tasks[index].name;
           this.editedTask = index;
        },
